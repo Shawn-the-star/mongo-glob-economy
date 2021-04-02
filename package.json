@@ -1,0 +1,33 @@
+{
+  "name": "mongo-glob-economy",
+  "version": "1.0.0",
+  "description": "A easy to use npm economy package",
+  "main": "app.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "quickmongo": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shawn-the-star/mongo-glob-economy.git"
+  },
+  "keywords": [
+    "mongoose",
+    "mongo",
+    "discordjs",
+    "discord.js",
+    "eco",
+    "economy",
+    "database"
+  ],
+  "author": "Shawn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shawn-the-star/mongo-glob-economy/issues"
+  },
+  "homepage": "https://github.com/Shawn-the-star/mongo-glob-economy#readme"
+}
