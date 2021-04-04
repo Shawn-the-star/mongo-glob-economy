@@ -1,6 +1,6 @@
 {
   "name": "mongo-glob-economy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A easy to use npm economy package",
   "main": "app.js",
   "dependencies": {
