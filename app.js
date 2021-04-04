@@ -160,7 +160,7 @@ class Economy {
      * @param {Number} value - amount to add
      */
 
-    static async incBankLimit(userID, value) {
+    static async incBankLimit(userID, coins) {
         if (!userID) throw new TypeError('userID was not provided');
         if (!coins) throw new TypeError('The amount of coinst to add was not provided')
         if (isNaN(coins)) throw new TypeError('The coins must be Numbers')
@@ -220,7 +220,7 @@ class Economy {
      * @param {Number} value - amount to remove
      */
 
-    static async decBankLimit(userID, value) {
+    static async decBankLimit(userID, coins) {
         if (!userID) throw new TypeError('userID was not provided');
         if (!coins) throw new TypeError('The amount of coinst to add was not provided')
         if (isNaN(coins)) throw new TypeError('The coins must be Numbers')
