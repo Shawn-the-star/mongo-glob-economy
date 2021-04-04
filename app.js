@@ -171,7 +171,7 @@ class Economy {
 
         if (!user) throw new TypeError('The userID does not exist in the Database');
 
-        return db.add(`${userID}.banklimit`, value)
+        return db.add(`${userID}.banklimit`, coins)
     }
 
     /**
@@ -231,7 +231,7 @@ class Economy {
 
         if (!user) throw new TypeError('The userID does not exist in the Database');
 
-        return db.subtract(`${userID}.banklimit`, value)
+        return db.subtract(`${userID}.banklimit`, coins)
     }
 }
 
